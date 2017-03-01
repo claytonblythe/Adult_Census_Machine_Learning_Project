@@ -9,15 +9,20 @@ First, a basic exploratory analysis of the data and to determine which attribute
 # Sex
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/sex.png)
 
+# Race
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/race.png)
+
 # Age
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/age.png)
 
 # Marital Status
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/marital_status.png)
 
-# Race
-![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/race.png)
+# Relationship
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/relationship.png)
 
+# Workclass 
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/workclass.png)
 
 
 
