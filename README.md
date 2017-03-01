@@ -28,7 +28,9 @@ First, a basic exploratory analysis of the data and to determine which attribute
 Classification models using  "age"   "workclass"  "education"      "education_num"  "marital_status"
 "occupation"     "relationship"   "race"    "sex"   "capital_gain"  "capital_loss"   "hours_per_week" variables are run on the target variable which is one-hot encoded representing whether a person's income is under or over $50k
 
-Here I compared a binary logistic classification model with a Random Forest model, which is a popular off-the-shelf method for classification problems using high dimensional data with categorical variables. The Random Forest essentially internally converts categorical variables to dummy variables for each factor level, so long as you explicitly format them as a factor. 
+Here I compared a binary logistic classification model with a Random Forest model, which is a popular off-the-shelf method for classification problems using high dimensional data with categorical variables. The Random Forest essentially internally converts categorical variables to dummy variables for each factor level, so long as you explicitly format them as a factor. For the Random Forest model here I used 750 trees and an mtry value of 2, which seemed to give optimal results.
+
+It turns out that the Random Forest model shows substantial improvement over a standard binary logistic model, which is interesting. I plan on running the same model with a larger number of trees to see if the performance improves at all. 
 
 
 
