@@ -6,7 +6,22 @@ or less than $50k per year. Various attributes are analyzed and used in a binary
 
 First, a basic exploratory analysis of the data and to determine which attributes or variables would be predictive. For example, we can look at the variables of sex, occupation, relationsihip status, marital status, age, and other variables. 
 
+# Sex
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/sex.png)
+
+# Age
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/age.png)
+
+# Marital Status
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/marital_status.png)
+
+# Race
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/race.png)
+
+
+
+
+
 
 Models are then compared with ROC curves for overall performance. 
 
