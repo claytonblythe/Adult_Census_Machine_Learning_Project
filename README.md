@@ -5,3 +5,4 @@ The project uses data from the UCI Machine Learning dataset resources, comprisin
 or less than $50k per year. Various attributes are analyzed and used in a binary logistic and random forest model to make accurate predictions.
 
 Models are then compared with ROC curves for overall performance. 
+
