@@ -31,9 +31,10 @@ Classification models using  "age"   "workclass"  "education"      "education_nu
 Here I compared a binary logistic classification model with a Random Forest model, which is a popular off-the-shelf method for classification problems using high dimensional data with categorical variables. The Random Forest essentially internally converts categorical variables to dummy variables for each factor level, so long as you explicitly format them as a factor. 
 
 
-Models are then compared with ROC curves for overall performance. Here the red is the Random Forest model with AUC: .94 and the binary logistic model with an AUC: .90
+
 
 # ROC 
+Models are then compared with ROC curves for overall performance. Here the red is the Random Forest model with AUC: .94 and the blue curve is a binary logistic model with an AUC: .90
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/ROC.png)
 
 
