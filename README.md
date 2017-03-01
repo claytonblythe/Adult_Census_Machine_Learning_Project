@@ -6,22 +6,22 @@ or less than $50k per year. Various attributes are analyzed and used in a binary
 
 First, a basic exploratory analysis of the data and to determine which attributes or variables would be predictive. For example, we can look at the variables of sex, occupation, relationsihip status, marital status, age, and other variables. 
 
-# Sex
+# Sex Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/sex.png)
 
-# Race
+# Race Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/race.png)
 
-# Age
+# Age Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/age.png)
 
-# Marital Status
+# Marital Status Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/marital_status.png)
 
-# Relationship
+# Relationship Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/relationship.png)
 
-# Workclass 
+# Workclass Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/workclass.png)
 
 
@@ -35,7 +35,7 @@ It turns out that the Random Forest model shows substantial improvement over a s
 
 
 
-# ROC 
+# ROC Performance Comparison
 Models are then compared with ROC curves for overall performance. Here the red is the Random Forest model with AUC: .94 and the blue curve is a binary logistic model with an AUC: .90
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/ROC.png)
 
