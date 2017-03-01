@@ -25,8 +25,15 @@ First, a basic exploratory analysis of the data and to determine which attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/workclass.png)
 
 
+Classification models using  "age"   "workclass"  "education"      "education_num"  "marital_status"
+"occupation"     "relationship"   "race"    "sex"   "capital_gain"  "capital_loss"   "hours_per_week" variables are run on the target variable which is one-hot encoded representing whether a person's income is under or over $50k
+
+Here I compared a binary logistic classification model with a Random Forest model, which is a popular off-the-shelf method for classification problems using high dimensional data with categorical variables. The Random Forest essentially internally converts categorical variables to dummy variables for each factor level, so long as you explicitly format them as a factor. 
 
 
+Models are then compared with ROC curves for overall performance. Here the red is the Random Forest model with AUC: .94 and the binary logistic model with an AUC: .90
 
-Models are then compared with ROC curves for overall performance. 
+# ROC 
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/ROC.png)
+
 
