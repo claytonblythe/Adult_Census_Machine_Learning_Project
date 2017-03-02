@@ -1,4 +1,4 @@
-# Adult_Census_Machine_Learning_Project
+# Adult Census Machine Learning Project
 A project to familiarize myself with various methods of classification employing machine learning algorithms 
 
 The project uses data from the UCI Machine Learning dataset resources, comprising of 1994 census data of whether an individual makes more
