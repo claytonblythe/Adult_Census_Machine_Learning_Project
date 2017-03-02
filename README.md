@@ -39,6 +39,7 @@ This is what the data looks like after reading it into R and cleaning the data (
 
 # ROC Performance Comparison
 Models are then compared with ROC curves for overall performance. Here the red is the Random Forest model with AUC: .94 and the blue curve is a binary logistic model with an AUC: .90
+
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/ROC.png)
 
 
