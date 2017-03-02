@@ -32,7 +32,9 @@ Here I compared a binary logistic classification model with a Random Forest mode
 
 It turns out that the Random Forest model shows substantial improvement over a standard binary logistic model, which is interesting. I plan on running the same model with a larger number of trees to see if the performance improves at all. 
 
+This is what the data looks like after reading it into R and cleaning the data (getting rid of NA's, "?" values, and cleaning the data)
 
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/train_data.png)
 
 
 # ROC Performance Comparison
