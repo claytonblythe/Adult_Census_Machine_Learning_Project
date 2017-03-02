@@ -4,7 +4,11 @@ A project to familiarize myself with various methods of classification employing
 The project uses data from the UCI Machine Learning dataset resources, comprising of 1994 census data of whether an individual makes more
 or less than $50k per year. Various attributes are analyzed and used in a binary logistic and random forest model to make accurate predictions.
 
-First, a basic exploratory analysis of the data and to determine which attributes or variables would be predictive. For example, we can look at the variables of sex, occupation, relationsihip status, marital status, age, and other variables. 
+First, a basic exploratory analysis of the data and to determine which attributes or variables would be predictive. For example, we can look at the variables of sex, occupation, relationship status, marital status, age, and other variables. 
+
+Here the income attribute is transmuted into a "target variable" that is either 1 (indicating they make >$50k) or 0 (indicating they make <$50k) Keep in mind this is in 1994, so the real value of this income would be higher in today's dollars. 
+
+Overall, about 25% of our data has a "1" in the target attribute.
 
 # Sex Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/sex.png)
