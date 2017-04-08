@@ -48,6 +48,12 @@ First, a basic exploratory analysis of the data and to determine which attribute
 # Workclass Attribute
 ![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/workclass.png)
 
+# Occupation Attribute
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/occupation.png)
+
+# Education Attribute
+![Alt Test](https://github.com/claytonblythe/Adult_Census_Machine_Learning_Project/blob/master/education.png)
+
 
 Classification models using  "age"   "workclass"  "education"      "education_num"  "marital_status"
 "occupation"     "relationship"   "race"    "sex"   "capital_gain"  "capital_loss"   "hours_per_week" variables are run on the target variable which is one-hot encoded representing whether a person's income is under or over $50k
