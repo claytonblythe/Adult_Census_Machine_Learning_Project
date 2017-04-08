@@ -4,17 +4,28 @@ A project to familiarize myself with various methods of classification employing
 This research project is to investigate the extent to which various social and demographic indicators can predict binary classification of income (>$50k or <$50k) and to also describe the magnitude of each’s variable’s effect on the probability that a particular individual will make more or less than fifty thousand dollars. The data is collected from 1994 Census Data, obtained through the UCI Machine Learning dataset resource. For initial investigation, an exploratory data analysis was performed to get a sense of the distribution of the data, and various transformations and variable creation methods were used.  The data contains the following attributes that are available for analysis.
 
 age: continuous. 
+
 workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. 
+
 fnlwgt: continuous. 
+
 education: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool. 
+
 education-num: continuous. 
+
 marital-status: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse. 
 occupation: Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces. 
+
 relationship: Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried. 
+
 race: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black. 
+
 sex: Female, Male. 
+
 capital-gain: continuous. 
+
 capital-loss: continuous. 
+
 hours-per-week: continuous. 
 
 First, a basic exploratory analysis of the data and to determine which attributes or variables would be predictive. For example, we can look at the variables of sex, occupation, relationship status, marital status, age, and other variables. In the past, these variables have been associated with wage premiums and discrimination in much of past literature. To begin, the income attribute is one-hot encoded into a "target variable" that is either 1 (indicating they make >$50k) or 0 (indicating they make <$50k). Bear in mind this is in 1994, so the real value of this income would be higher in today's dollars. Overall, the data includes 45,000 observations, with roughly 25% of the data having a "1" in the target attribute, indicating that the individual makes more than $50k. 
